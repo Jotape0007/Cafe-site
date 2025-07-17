@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+     <meta charset="utf-8">
+     <title>Exercício HTML 4</title>
+    </head>
+    <body>
+        <h2>
+          <img src="imagens/logo.jpg" alt="logo (Logo do Starbuzz)" width="110" height="110" align="middle">
+          Cadastre-se no Café Starbuzz<sup>®</sup></h2>
+
+          <form action="cadastro.html" get="teste.php">
+            <legend>Nome completo*:</legend>
+                <input type="text" name="username" size="52" maxlenght="50" placeholder="Digite seu nome completo"/>
+
+          <p></p>
+
+            <legend for="username">Data Nascimento*: </legend>
+            <input type="date" name="depart" />
+
+          <p></p>
+
+            <legend>Email*: </legend>
+            <label><input type="text" name="username" size="20" maxlenght="30" placeholder="Digite o email"/>
+
+        <p></p>
+
+                <legend for="username">Data Nascimento: </legend>
+                <input type="date" name="depart" />
+
+              <p></p>
+
+                <fieldset>
+                    <legend>Sexo*</legend>
+                    <label><input type="radio" name="rating" value="Feminino" /> Feminino</label>
+                    <label><input type="radio" name="rating" value="Masculino" /> Masculino</label>
+                </fieldset>
+
+                <p>
+                    <label for="hear-about">Café Preferido</label>
+                    <select name="referrer" id="hear-about">
+                        <option  value="misturadacasa"> Mistura da Casa</option>
+                        <option  value="cafearabico"> Café Arábico</option>
+                        <option  value="capuccino"> Capuccino</option>
+                        <option  value="cha"> Chá</option>
+                    </select>
+                </p>
+
+                <p></p>
+
+                <legend>Você toma café ..</legend>
+                <input type="checkbox" name="service" value="itunes" checked="manha" /> Manhã
+                <input type="checkbox" name="service" value="itunes" checked="tarde" /> Tarde
+                <input type="checkbox" name="service" value="itunes" checked="noite" /> Noite
+
+                <p></p>
+
+                <textarea name="comments" placeholder="Deixe seu comentário" cols="30" rows="4"></textarea>
+
+                <br />
+                
+                <label>Receber novidades por email</label><input type="checkbox" name="service" value="itunes" checked="checked" />
+
+                <p></p>
+
+                <input type="submit" value="Enviar" /> <input type="reset" value="Limpar" />
+
+                <p></p>
+                <p><a href="index.html"> Voltar </a></p>
+            </body>
+        </form>
